@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS funcionario(
     cargo VARCHAR(100)
 );
 """
-#Passo3 - Acessar o bjeto da biblioteca sqlite3 para manipular o banco
+#Passo3 - Acessar o objeto cursor() da biblioteca sqlite3 para manipular o banco
 consulta = conexao.cursor() #O objeto cursor()  é responsável por manipular dados do banco
 
 #Passo4 - executar o comando de criação da tabela
